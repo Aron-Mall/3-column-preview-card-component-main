@@ -38,7 +38,6 @@ main {
   background-color: var(--bright-orange);
   margin: 0 auto;
   border-radius: 8px;
-  transform: translateY(20px);
 }
 
 .card {
