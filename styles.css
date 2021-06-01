@@ -18,5 +18,124 @@
 body {
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
+  color: var(--transparent-white);
+}
+
+main {
+  background-color: var(--very-light-gray);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  max-width: 920px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 500px;
+  background-color: var(--bright-orange);
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2.5em;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.card.one {
+  background-color: var(--bright-orange);
+}
+
+
+.card.two {
+  background-color: var(--dark-cyan);
+}
+
+
+.card.three {
+  background-color: var(--very-dark-cyan);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.card__title {
   font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+  color: var(--very-light-gray);
+  text-transform: uppercase;
+  margin-top: -3rem;
+}
+
+.card__description {
+  font-size: 1rem;
+  color: var(--transparent-white);
+  margin-top: -3rem;
+}
+
+
+.btn {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  width: 146px;
+  border-radius: 25px;
+  text-align: center;
+  /* border: 2px solid transparent; */
+}
+
+.btn:hover {
+  color: var(--very-light-gray);
+  border: 2px solid var(--very-light-gray);
+  margin-top: -4px;
+
+}
+
+
+.btn-orange {
+  background-color: var(--very-light-gray);
+  color: var(--bright-orange);
+}
+
+.btn-orange:hover {
+  background-color: var(--bright-orange);
+}
+
+.btn-dark-cyan {
+  background-color: var(--very-light-gray);
+  color: var(--dark-cyan);
+}
+
+.btn-dark-cyan:hover {
+  background-color: var(--dark-cyan);
+}
+
+.btn-very-dark-cyan {
+  background-color: var(--very-light-gray);
+  color: var(--very-dark-cyan);
+}
+
+.btn-very-dark-cyan:hover {
+  background-color: var(--very-dark-cyan);
+}
+
+@media only screen and (max-width: 700px){
+  
+  .card-container {
+    max-width: 327px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,442px);
+    border-radius: 8px;
+  }
+
+  .btn {
+    margin-bottom: 1rem;
+  }
+
+
 }
