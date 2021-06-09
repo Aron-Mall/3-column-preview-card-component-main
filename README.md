@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Aron-Mall/3-column-preview-card-component-main](https://github.com/Aron-Mall/3-column-preview-card-component-main)
+- Solution URL: [https://www.frontendmentor.io/solutions/css-grid-and-flexbox-WEpjK0ZUv](https://www.frontendmentor.io/solutions/css-grid-and-flexbox-WEpjK0ZUv)
 - Live Site URL: [https://aron-mall.github.io/3-column-preview-card-component-main/](https://aron-mall.github.io/3-column-preview-card-component-main/)
 
 ## My process
